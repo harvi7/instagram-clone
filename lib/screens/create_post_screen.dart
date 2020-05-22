@@ -134,6 +134,7 @@ class _CreatePostScreenState extends State<CreatePostScreen> {
     final width = MediaQuery.of(context).size.width;
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: Colors.white,
         title: Text(
           'Create Post',
